@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.2"
 
     defaultConfig {
-        applicationId "au.com.codeka.weather"
+        applicationId "ar.com.hernol.weather"
         minSdkVersion 19
         targetSdkVersion 24
     }
@@ -16,6 +16,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {

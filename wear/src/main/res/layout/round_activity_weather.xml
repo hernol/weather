@@ -3,7 +3,7 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context="au.com.codeka.weather.WeatherActivity"
+                tools:context="ar.com.hernol.weather.WeatherActivity"
                 tools:deviceIds="wear_round">
 
   <TextView
